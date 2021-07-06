@@ -7,7 +7,7 @@ Confluent platform has a schema registry which we can use along with avro data f
 
 A fair knowledge on how to use docker and write code in spark-scala is necessary, however detailed steps on how to setup and use Spark, Kafka and Schema registry to send and receive data has been covered.
 
-The key concepts and definitions can be found here in the [wiki page](https://github.com/shreeraman96/spark_kafka_schemaRegistry/wiki/Key-terms-and-definition)
+The key concepts and definitions can be found here in the [wiki page](https://github.com/abyakod/kafka_with_schema_registry_spark/wiki/Key-terms-and-definition)
 
 **Setting up the environment** 
 To setup the environment needed for this project, detailed instructions has been added for both windows and linux users in this particular [page](https://github.com/abyakod/kafka_with_schema_registry_spark/wiki/Setting-up-the-environment)

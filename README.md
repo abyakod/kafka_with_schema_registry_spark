@@ -14,7 +14,7 @@ To setup the environment needed for this project, detailed instructions has been
 
 #### Breakdown and implementation of the code
 
-sample data that we are going to be use can be found [here](https://github.com/shreeraman96/spark_kafka_schemaRegistry/blob/master/src/main/resources/dataset/sampledata.csv). Schema for the same can be found [here](https://github.com/shreeraman96/spark_kafka_schemaRegistry/blob/master/src/main/resources/schema/sample.avsc)
+sample data that we are going to be use can be found [here](https://github.com/abyakod/kafka_with_schema_registry_spark/blob/master/src/main/resources/dataset/sampledata.csv). Schema for the same can be found [here](https://github.com/abyakod/kafka_with_schema_registry_sparky/blob/master/src/main/resources/schema/sample.avsc)
 
 
 **Setting up spark session:**
@@ -111,5 +111,3 @@ For avro serialization and deserialization I have utilized the ABRIS- Avro Bridg
 ``outputDf.writeStream.format("console").start().awaitTermination()``
 
 
-For any clarifications and doubts feel free to contact me through LinkedIn :  
-[Shreeraman A K](https://www.linkedin.com/in/shreeraman-karikalan/)
